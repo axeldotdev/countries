@@ -18,10 +18,12 @@ composer require axeldotdev/countries
 ## Usage
 
 ```php
-$countries = Axeldotdev\Countries\Country::all();
+$countries = Axeldotdev\Countries\Country::all(translation: LANG::EN);
 
-$european_countries = Axeldotdev\Countries\Country::european();
+$european_countries = Axeldotdev\Countries\Country::european(translation: Lang::FR);
 ```
+
+This package only supports english and french. Feel free to add other lang with a PR.
 
 ## Testing
 

@@ -2,12 +2,14 @@
 
 namespace Axeldotdev\Countries\Continents;
 
+use Axeldotdev\Countries\Lang;
+
 class SouthAmerica extends Continent
 {
     public const CODE = 'SA';
 
     public const LABEL = [
-        'en' => 'South America',
-        'fr' => 'Amérique du Sud',
+        Lang::EN => 'South America',
+        Lang::FR => 'Amérique du Sud',
     ];
 }

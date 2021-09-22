@@ -2,12 +2,14 @@
 
 namespace Axeldotdev\Countries\Continents;
 
+use Axeldotdev\Countries\Lang;
+
 class NorthAmerica extends Continent
 {
     public const CODE = 'NA';
 
     public const LABEL = [
-        'en' => 'North America',
-        'fr' => 'Amérique du Nord',
+        Lang::EN => 'North America',
+        Lang::FR => 'Amérique du Nord',
     ];
 }

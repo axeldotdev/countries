@@ -5,14 +5,14 @@ namespace Axeldotdev\Countries\Countries;
 use Axeldotdev\Countries\Lang;
 use Axeldotdev\Countries\Continents\Europe;
 
-class France extends Country
+class Hungary extends Country
 {
-    public const CODE = 'FRA';
+    public const CODE = 'HUN';
 
     public const CONTINENT = Europe::class;
 
     public const LABEL = [
-        Lang::EN => 'France',
-        Lang::FR => 'France',
+        Lang::EN => 'Hungary',
+        Lang::FR => 'Hongrie',
     ];
 }

@@ -2,12 +2,14 @@
 
 namespace Axeldotdev\Countries\Continents;
 
+use Axeldotdev\Countries\Lang;
+
 class Oceania extends Continent
 {
     public const CODE = 'OC';
 
     public const LABEL = [
-        'en' => 'Oceania',
-        'fr' => 'Océanie',
+        Lang::EN => 'Oceania',
+        Lang::FR => 'Océanie',
     ];
 }

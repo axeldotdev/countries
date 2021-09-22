@@ -2,20 +2,47 @@
 
 namespacAxeldotdev\Countries;
 
-use Axeldotdev\Countries\Continents\Antartica;
+use Axeldotdev\Countries\Lang;
 
 usAxeldotdev\Countries\Continents\Asia;
 usAxeldotdev\Countries\Continents\Africa;
 usAxeldotdev\Countries\Continents\Europe;
-use Axeldotdev\Countries\Continents\NorthAmerica;
-use Axeldotdev\Countries\Continents\Oceania;
-use Axeldotdev\Countries\Continents\SouthAmerica;
-use Axeldotdev\Countries\Countries\France;
+use Axeldotdev\Countries\Countries\Italy;
+use Axeldotdev\Countries\Countries\Malta;
+use Axeldotdev\Countries\Countries\Spain;
 use Tightenco\Collect\Support\Collection;
+use Axeldotdev\Countries\Countries\Cyprus;
+use Axeldotdev\Countries\Countries\France;
+use Axeldotdev\Countries\Countries\Greece;
+use Axeldotdev\Countries\Countries\Latvia;
+use Axeldotdev\Countries\Countries\Poland;
+use Axeldotdev\Countries\Countries\Sweden;
+use Axeldotdev\Countries\Countries\Austria;
+use Axeldotdev\Countries\Countries\Belgium;
+use Axeldotdev\Countries\Countries\Croatia;
+use Axeldotdev\Countries\Countries\Denmark;
+use Axeldotdev\Countries\Countries\Estonia;
+use Axeldotdev\Countries\Countries\Finland;
+use Axeldotdev\Countries\Countries\Germany;
+use Axeldotdev\Countries\Countries\Hungary;
+use Axeldotdev\Countries\Countries\Ireland;
+use Axeldotdev\Countries\Countries\Romania;
+use Axeldotdev\Countries\Continents\Oceania;
+use Axeldotdev\Countries\Countries\Bulgaria;
+use Axeldotdev\Countries\Countries\Portugal;
+use Axeldotdev\Countries\Countries\Slovakia;
+use Axeldotdev\Countries\Countries\Slovenia;
+use Axeldotdev\Countries\Countries\Lithuania;
+use Axeldotdev\Countries\Continents\Antartica;
+use Axeldotdev\Countries\Countries\Luxembourg;
+use Axeldotdev\Countries\Countries\Netherlands;
+use Axeldotdev\Countries\Continents\NorthAmerica;
+use Axeldotdev\Countries\Continents\SouthAmerica;
+use Axeldotdev\Countries\Countries\CzechRepublic;
 
 class Country
 {
-    public static function all(string $translation = 'en'): Collection
+    public static function all(string $translation = Lang::EN): Collection
     {
         return static::countries($translation);
     }
@@ -73,14 +100,14 @@ class Country
             // Argentina::getData($translation),
             // Armenia::getData($translation),
             // Australia::getData($translation),
-            // Austria::getData($translation),
+            Austria::getData($translation),
             // Azerbaijan::getData($translation),
             // Bahamas::getData($translation),
             // Bahrain::getData($translation),
             // Bangladesh::getData($translation),
             // Barbados::getData($translation),
             // Belarus::getData($translation),
-            // Belgium::getData($translation),
+            Belgium::getData($translation),
             // Belize::getData($translation),
             // Benin::getData($translation),
             // Bhutan::getData($translation),
@@ -89,7 +116,7 @@ class Country
             // Botswana::getData($translation),
             // Brazil::getData($translation),
             // Brunei::getData($translation),
-            // Bulgaria::getData($translation),
+            Bulgaria::getData($translation),
             // BurkinaFaso::getData($translation),
             // Burundi::getData($translation),
             // Cambodia::getData($translation),
@@ -105,11 +132,11 @@ class Country
             // DemocraticRepublicOfCongo::getData($translation),
             // Congo::getData($translation),
             // CostaRica::getData($translation),
-            // Croatia::getData($translation),
+            Croatia::getData($translation),
             // Cuba::getData($translation),
-            // Cyprus::getData($translation),
-            // CzechRepublic::getData($translation),
-            // Denmark::getData($translation),
+            Cyprus::getData($translation),
+            CzechRepublic::getData($translation),
+            Denmark::getData($translation),
             // Djibouti::getData($translation),
             // Dominica::getData($translation),
             // DominicanRepublic::getData($translation),
@@ -119,18 +146,18 @@ class Country
             // ElSalvador::getData($translation),
             // EquatorialGuinea::getData($translation),
             // Eritrea::getData($translation),
-            // Estonia::getData($translation),
+            Estonia::getData($translation),
             // Eswatini::getData($translation),
             // Ethiopia::getData($translation),
             // Fiji::getData($translation),
-            // Finland::getData($translation),
+            Finland::getData($translation),
             France::getData($translation),
             // Gabon::getData($translation),
             // TheGambia::getData($translation),
             // Georgia::getData($translation),
-            // Germany::getData($translation),
+            Germany::getData($translation),
             // Ghana::getData($translation),
-            // Greece::getData($translation),
+            Greece::getData($translation),
             // Grenada::getData($translation),
             // Guatemala::getData($translation),
             // Guinea::getData($translation),
@@ -138,15 +165,15 @@ class Country
             // Guyana::getData($translation),
             // Haiti::getData($translation),
             // Honduras::getData($translation),
-            // Hungary::getData($translation),
+            Hungary::getData($translation),
             // Iceland::getData($translation),
             // India::getData($translation),
             // Indonesia::getData($translation),
             // Iran::getData($translation),
             // Iraq::getData($translation),
-            // Ireland::getData($translation),
+            Ireland::getData($translation),
             // Israel::getData($translation),
-            // Italy::getData($translation),
+            Italy::getData($translation),
             // IvoryCoast::getData($translation),
             // Jamaica::getData($translation),
             // Japan::getData($translation),
@@ -159,20 +186,20 @@ class Country
             // Kuwait::getData($translation),
             // Kyrgyzstan::getData($translation),
             // Laos::getData($translation),
-            // Latvia::getData($translation),
+            Latvia::getData($translation),
             // Lebanon::getData($translation),
             // Lesotho::getData($translation),
             // Liberia::getData($translation),
             // Libya::getData($translation),
             // Liechtenstein::getData($translation),
-            // Lithuania::getData($translation),
-            // Luxembourg::getData($translation),
+            Lithuania::getData($translation),
+            Luxembourg::getData($translation),
             // Madagascar::getData($translation),
             // Malawi::getData($translation),
             // Malaysia::getData($translation),
             // Maldives::getData($translation),
             // Mali::getData($translation),
-            // Malta::getData($translation),
+            Malta::getData($translation),
             // MarshallIslands::getData($translation),
             // Mauritania::getData($translation),
             // Mauritius::getData($translation),
@@ -188,7 +215,7 @@ class Country
             // Namibia::getData($translation),
             // Nauru::getData($translation),
             // Nepal::getData($translation),
-            // Netherlands::getData($translation),
+            Netherlands::getData($translation),
             // NewZealand::getData($translation),
             // Nicaragua::getData($translation),
             // Niger::getData($translation),
@@ -204,10 +231,10 @@ class Country
             // Paraguay::getData($translation),
             // Peru::getData($translation),
             // Philippines::getData($translation),
-            // Poland::getData($translation),
-            // Portugal::getData($translation),
+            Poland::getData($translation),
+            Portugal::getData($translation),
             // Qatar::getData($translation),
-            // Romania::getData($translation),
+            Romania::getData($translation),
             // Russia::getData($translation),
             // Rwanda::getData($translation),
             // SaintKittsAndNevis::getData($translation),
@@ -222,17 +249,17 @@ class Country
             // Seychelles::getData($translation),
             // SierraLeone::getData($translation),
             // Singapore::getData($translation),
-            // Slovakia::getData($translation),
-            // Slovenia::getData($translation),
+            Slovakia::getData($translation),
+            Slovenia::getData($translation),
             // SolomonIslands::getData($translation),
             // Somalia::getData($translation),
             // SouthAfrica::getData($translation),
             // SouthSudan::getData($translation),
-            // Spain::getData($translation),
+            Spain::getData($translation),
             // SriLanka::getData($translation),
             // Sudan::getData($translation),
             // Suriname::getData($translation),
-            // Sweden::getData($translation),
+            Sweden::getData($translation),
             // Switzerland::getData($translation),
             // Syria::getData($translation),
             // Tajikistan::getData($translation),

@@ -2,12 +2,14 @@
 
 namespace Axeldotdev\Countries\Continents;
 
+use Axeldotdev\Countries\Lang;
+
 class Europe extends Continent
 {
     public const CODE = 'EU';
 
     public const LABEL = [
-        'en' => 'Europe',
-        'fr' => 'Europe',
+        Lang::EN => 'Europe',
+        Lang::FR => 'Europe',
     ];
 }
