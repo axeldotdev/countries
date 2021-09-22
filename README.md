@@ -18,9 +18,9 @@ composer require axeldotdev/countries
 ## Usage
 
 ```php
-$countries = Axeldotdev\Country::all();
+$countries = Axeldotdev\Countries\Country::all();
 
-$european_countries = Axeldotdev\Country::european();
+$european_countries = Axeldotdev\Countries\Country::european();
 ```
 
 ## Testing
