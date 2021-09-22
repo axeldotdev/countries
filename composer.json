@@ -1,0 +1,57 @@
+{
+    "name": "axeldotdev/countries",
+    "description": "This package give you countries informations.",
+    "keywords": [
+        "axeldotdev",
+        "countries"
+    ],
+    "homepage": "https://github.com/axeldotdev/countries",
+    "readme": "https://github.com/axeldotdev/countries/blob/main/README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Axel Charpentier",
+            "email": "axel.charpentier@hey.com",
+            "homepage": "https://github.com/axeldotdev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "tightenco/collect": "^8.34"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpunit/phpunit": "^9.5",
+        "spatie/ray": "^1.28",
+        "vimeo/psalm": "^4.8"
+    },
+    "support": {
+        "email": "axel.charpentier@hey.com",
+        "source": "https://github.com/axeldotdev/countries",
+        "issues": "https://github.com/axeldotdev/countries/issues",
+        "docs": "https://github.com/axeldotdev/countries/wiki",
+        "chat": "https://github.com/axeldotdev/countries/discussions"
+    },
+    "autoload": {
+        "psr-4": {
+            "Axeldotdev\\Countries\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Axeldotdev\\Countries\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
