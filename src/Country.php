@@ -2,16 +2,16 @@
 
 namespacAxeldotdev\Countries;
 
-use Tightenco\Collect\Support\Collection;
+use Axeldotdev\Countries\Continents\Antartica;
 
 usAxeldotdev\Countries\Continents\Asia;
 usAxeldotdev\Countries\Continents\Africa;
 usAxeldotdev\Countries\Continents\Europe;
-use Axeldotdev\Countries\Countries\France;
-use Axeldotdev\Countries\Continents\Oceania;
-use Axeldotdev\Countries\Continents\Antartica;
 use Axeldotdev\Countries\Continents\NorthAmerica;
+use Axeldotdev\Countries\Continents\Oceania;
 use Axeldotdev\Countries\Continents\SouthAmerica;
+use Axeldotdev\Countries\Countries\France;
+use Tightenco\Collect\Support\Collection;
 
 class Country
 {
@@ -58,7 +58,7 @@ class Country
     private static function continent(string $code, string $translation): Collection
     {
         return static::countries($translation)
-            ->filter(fn ($country) => $country->continent->code=== $code);
+            ->filter(fn ($country) => $country->continent->code === $code);
     }
 
     private static function countries(string $translation): Collection

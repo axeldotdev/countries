@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\Countries\Continents;
 
-use stdClass;
-use Axeldotdev\Countries\Mappable;
 use Axeldotdev\Countries\Labellable;
+use Axeldotdev\Countries\Mappable;
+use stdClass;
 use Tightenco\Collect\Support\Collection;
 
 class Continent implements Labellable, Mappable
