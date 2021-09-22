@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\Countries\Countries;
 
-use stdClass;
-use Axeldotdev\Countries\Mappable;
 use Axeldotdev\Countries\Labellable;
+use Axeldotdev\Countries\Mappable;
+use stdClass;
 use Tightenco\Collect\Support\Collection;
 
 class Country implements Labellable, Mappable
