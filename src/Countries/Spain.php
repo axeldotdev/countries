@@ -2,8 +2,8 @@
 
 namespace Axeldotdev\Countries\Countries;
 
-use Axeldotdev\Countries\Lang;
 use Axeldotdev\Countries\Continents\Europe;
+use Axeldotdev\Countries\Lang;
 
 class Spain extends Country
 {

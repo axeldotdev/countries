@@ -3,8 +3,6 @@
 namespace Axeldotdev\Countries;
 
 use Axeldotdev\Countries\Continents\Asia;
-use Axeldotdev\Countries\Continents\Africa;
-use Axeldotdev\Countries\Continents\Europe;
 use Axeldotdev\Countries\Countries\Italy;
 use Axeldotdev\Countries\Countries\Malta;
 use Axeldotdev\Countries\Countries\Spain;
@@ -15,6 +13,8 @@ use Axeldotdev\Countries\Countries\Greece;
 use Axeldotdev\Countries\Countries\Latvia;
 use Axeldotdev\Countries\Countries\Poland;
 use Axeldotdev\Countries\Countries\Sweden;
+use Axeldotdev\Countries\Continents\Africa;
+use Axeldotdev\Countries\Continents\Europe;
 use Axeldotdev\Countries\Countries\Austria;
 use Axeldotdev\Countries\Countries\Belgium;
 use Axeldotdev\Countries\Countries\Croatia;
