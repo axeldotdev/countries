@@ -18,6 +18,7 @@
     ],
     "require": {
         "php": "^8.0",
+        "axeldotdev/dump-die": "^1.0",
         "tightenco/collect": "^8.34"
     },
     "require-dev": {

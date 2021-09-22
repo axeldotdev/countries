@@ -1,12 +1,10 @@
 <?php
 
-namespacAxeldotdev\Countries;
+namespace Axeldotdev\Countries;
 
-use Axeldotdev\Countries\Lang;
-
-usAxeldotdev\Countries\Continents\Asia;
-usAxeldotdev\Countries\Continents\Africa;
-usAxeldotdev\Countries\Continents\Europe;
+use Axeldotdev\Countries\Continents\Asia;
+use Axeldotdev\Countries\Continents\Africa;
+use Axeldotdev\Countries\Continents\Europe;
 use Axeldotdev\Countries\Countries\Italy;
 use Axeldotdev\Countries\Countries\Malta;
 use Axeldotdev\Countries\Countries\Spain;

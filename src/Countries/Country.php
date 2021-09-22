@@ -2,6 +2,7 @@
 
 namespace Axeldotdev\Countries\Countries;
 
+use Axeldotdev\Countries\Continents\Continent;
 use Axeldotdev\Countries\Labellable;
 use Axeldotdev\Countries\Mappable;
 use stdClass;
@@ -11,7 +12,7 @@ class Country implements Labellable, Mappable
 {
     public const CODE = null;
 
-    public const CONTINENT = null;
+    public const CONTINENT = Continent::class;
 
     public const LABEL = null;
 
@@ -22,10 +23,11 @@ class Country implements Labellable, Mappable
 
     public static function getData(string $translation): stdClass
     {
+        $continent = static::CONTINENT;
         $country = new stdClass();
 
         $country->code = static::CODE;
-        $country->continent = ${static::CONTINENT}::getData($translation);
+        $country->continent = $continent::getData($translation);
         $country->label = static::getLabel($translation);
         $country->labels = new Collection(static::LABEL);
 
