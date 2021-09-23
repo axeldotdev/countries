@@ -5,6 +5,7 @@
         "axeldotdev",
         "countries"
     ],
+    "version": "1.0.0",
     "homepage": "https://github.com/axeldotdev/countries",
     "readme": "https://github.com/axeldotdev/countries/blob/main/README.md",
     "license": "MIT",
