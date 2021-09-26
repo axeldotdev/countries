@@ -52,7 +52,7 @@ class ExampleTest extends TestCase
     {
         $countries = Country::northAmerica();
 
-        $this->assertCount(0, $countries);
+        $this->assertCount(23, $countries);
     }
 
     /** @test */
@@ -60,7 +60,7 @@ class ExampleTest extends TestCase
     {
         $countries = Country::oceania();
 
-        $this->assertCount(0, $countries);
+        $this->assertCount(13, $countries);
     }
 
     /** @test */
