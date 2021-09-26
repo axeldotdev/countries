@@ -4,7 +4,9 @@ namespace Axeldotdev\Countries;
 
 use Axeldotdev\Countries\Countries\Cuba;
 use Axeldotdev\Countries\Countries\Fiji;
+use Axeldotdev\Countries\Countries\Peru;
 use Axeldotdev\Countries\Continents\Asia;
+use Axeldotdev\Countries\Countries\Chile;
 use Axeldotdev\Countries\Countries\Haiti;
 use Axeldotdev\Countries\Countries\Italy;
 use Axeldotdev\Countries\Countries\Malta;
@@ -14,10 +16,12 @@ use Axeldotdev\Countries\Countries\Spain;
 use Axeldotdev\Countries\Countries\Tonga;
 use Tightenco\Collect\Support\Collection;
 use Axeldotdev\Countries\Countries\Belize;
+use Axeldotdev\Countries\Countries\Brazil;
 use Axeldotdev\Countries\Countries\Canada;
 use Axeldotdev\Countries\Countries\Cyprus;
 use Axeldotdev\Countries\Countries\France;
 use Axeldotdev\Countries\Countries\Greece;
+use Axeldotdev\Countries\Countries\Guyana;
 use Axeldotdev\Countries\Countries\Latvia;
 use Axeldotdev\Countries\Countries\Mexico;
 use Axeldotdev\Countries\Countries\Panama;
@@ -29,8 +33,10 @@ use Axeldotdev\Countries\Continents\Europe;
 use Axeldotdev\Countries\Countries\Austria;
 use Axeldotdev\Countries\Countries\Bahamas;
 use Axeldotdev\Countries\Countries\Belgium;
+use Axeldotdev\Countries\Countries\Bolivia;
 use Axeldotdev\Countries\Countries\Croatia;
 use Axeldotdev\Countries\Countries\Denmark;
+use Axeldotdev\Countries\Countries\Ecuador;
 use Axeldotdev\Countries\Countries\Estonia;
 use Axeldotdev\Countries\Countries\Finland;
 use Axeldotdev\Countries\Countries\Germany;
@@ -39,21 +45,27 @@ use Axeldotdev\Countries\Countries\Hungary;
 use Axeldotdev\Countries\Countries\Ireland;
 use Axeldotdev\Countries\Countries\Jamaica;
 use Axeldotdev\Countries\Countries\Romania;
+use Axeldotdev\Countries\Countries\Uruguay;
 use Axeldotdev\Countries\Countries\Vanuatu;
 use Axeldotdev\Countries\Continents\Oceania;
 use Axeldotdev\Countries\Countries\Barbados;
 use Axeldotdev\Countries\Countries\Bulgaria;
+use Axeldotdev\Countries\Countries\Colombia;
 use Axeldotdev\Countries\Countries\Dominica;
 use Axeldotdev\Countries\Countries\Honduras;
 use Axeldotdev\Countries\Countries\Kiribati;
+use Axeldotdev\Countries\Countries\Paraguay;
 use Axeldotdev\Countries\Countries\Portugal;
 use Axeldotdev\Countries\Countries\Slovakia;
 use Axeldotdev\Countries\Countries\Slovenia;
+use Axeldotdev\Countries\Countries\Suriname;
+use Axeldotdev\Countries\Countries\Argentina;
 use Axeldotdev\Countries\Countries\Australia;
 use Axeldotdev\Countries\Countries\CostaRica;
 use Axeldotdev\Countries\Countries\Guatemala;
 use Axeldotdev\Countries\Countries\Lithuania;
 use Axeldotdev\Countries\Countries\Nicaragua;
+use Axeldotdev\Countries\Countries\Venezuela;
 use Axeldotdev\Countries\Continents\Antartica;
 use Axeldotdev\Countries\Countries\ElSalvador;
 use Axeldotdev\Countries\Countries\Luxembourg;
@@ -131,7 +143,7 @@ class Country
             // Andorra::getData($translation),
             // Angola::getData($translation),
             AntiguaAndBarbuda::getData($translation),
-            // Argentina::getData($translation),
+            Argentina::getData($translation),
             // Armenia::getData($translation),
             Australia::getData($translation),
             Austria::getData($translation),
@@ -145,10 +157,10 @@ class Country
             Belize::getData($translation),
             // Benin::getData($translation),
             // Bhutan::getData($translation),
-            // Bolivia::getData($translation),
+            Bolivia::getData($translation),
             // BosniaAndHerzegovina::getData($translation),
             // Botswana::getData($translation),
-            // Brazil::getData($translation),
+            Brazil::getData($translation),
             // Brunei::getData($translation),
             Bulgaria::getData($translation),
             // BurkinaFaso::getData($translation),
@@ -159,9 +171,9 @@ class Country
             // CapeVerde::getData($translation),
             // CentralAfricanRepublic::getData($translation),
             // Chad::getData($translation),
-            // Chile::getData($translation),
+            Chile::getData($translation),
             // China::getData($translation),
-            // Colombia::getData($translation),
+            Colombia::getData($translation),
             // Comoros::getData($translation),
             // DemocraticRepublicOfCongo::getData($translation),
             // Congo::getData($translation),
@@ -175,7 +187,7 @@ class Country
             Dominica::getData($translation),
             DominicanRepublic::getData($translation),
             // EastTimor::getData($translation),
-            // Ecuador::getData($translation),
+            Ecuador::getData($translation),
             // Egypt::getData($translation),
             ElSalvador::getData($translation),
             // EquatorialGuinea::getData($translation),
@@ -196,7 +208,7 @@ class Country
             Guatemala::getData($translation),
             // Guinea::getData($translation),
             // GuineaBissau::getData($translation),
-            // Guyana::getData($translation),
+            Guyana::getData($translation),
             Haiti::getData($translation),
             Honduras::getData($translation),
             Hungary::getData($translation),
@@ -262,8 +274,8 @@ class Country
             // Palestine::getData($translation),
             Panama::getData($translation),
             PapuaNewGuinea::getData($translation),
-            // Paraguay::getData($translation),
-            // Peru::getData($translation),
+            Paraguay::getData($translation),
+            Peru::getData($translation),
             // Philippines::getData($translation),
             Poland::getData($translation),
             Portugal::getData($translation),
@@ -292,7 +304,7 @@ class Country
             Spain::getData($translation),
             // SriLanka::getData($translation),
             // Sudan::getData($translation),
-            // Suriname::getData($translation),
+            Suriname::getData($translation),
             Sweden::getData($translation),
             // Switzerland::getData($translation),
             // Syria::getData($translation),
@@ -311,11 +323,11 @@ class Country
             // UnitedArabEmirates::getData($translation),
             // UnitedKingdom::getData($translation),
             UnitedStates::getData($translation),
-            // Uruguay::getData($translation),
+            Uruguay::getData($translation),
             // Uzbekistan::getData($translation),
             Vanuatu::getData($translation),
             // VaticanCity::getData($translation),
-            // Venezuela::getData($translation),
+            Venezuela::getData($translation),
             // Vietnam::getData($translation),
             // Yemen::getData($translation),
             // Zambia::getData($translation),
