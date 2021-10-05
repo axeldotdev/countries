@@ -68,6 +68,6 @@ class ExampleTest extends TestCase
     {
         $countries = Country::southAmerica();
 
-        $this->assertCount(0, $countries);
+        $this->assertCount(12, $countries);
     }
 }
